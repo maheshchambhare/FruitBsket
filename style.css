@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./images/pexels-juan-c-palacios-3652898.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
