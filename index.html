@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Fruit Basket</title>
   </head>
   <body>
-    <div class="container">
+    <div id="home" class="container">
       <nav class="navbar">
         <ul class="nav-list">
-          <li class="nav-link"><a href="">Home</a></li>
-          <li class="nav-link"><a href="">About</a></li>
+          <li class="nav-link"><a href="#home">Home</a></li>
+          <li class="nav-link"><a href="#about">About</a></li>
         </ul>
       </nav>
       <div class="home-page">
@@ -37,9 +38,11 @@
               </p>
             </div>
             <div class="buttons">
-              <a href="#page02"><button class="btn" id="buynow">Buy Now</button></a>
-              <button class="btn" id="knowmore">
-                <a href="">Know More</a>
+              <a href="#page02"
+                ><button class="btn" id="buynow">Buy Now</button></a
+              >
+              <a href="#about"><button class="btn" id="knowmore">
+                Know More</button></a>
               </button>
             </div>
           </div>
@@ -59,24 +62,27 @@
               <h1>Apple</h1>
             </div>
             <div class="sizes">
-            <div class="radio-button">
-            <label for="small">Small</label>
-            <input name = "size" id="small" type="radio"></div>
-            <div class="radio-button">
-            <label for="medium">Medium</label>
-            <input name = "size" id="medium" type="radio"></div>
-            <div class="radio-button">
-            <label for="Xl">Xl</label>
-            <input name = "size" id="Xl" type="radio"></div>
+              <div class="radio-button">
+                <label for="small">Small</label>
+                <input name="size" id="small" type="radio" />
+              </div>
+              <div class="radio-button">
+                <label for="medium">Medium</label>
+                <input name="size" id="medium" type="radio" />
+              </div>
+              <div class="radio-button">
+                <label for="Xl">Xl</label>
+                <input name="size" id="Xl" type="radio" />
+              </div>
             </div>
             <div class="quantity">
               <label for="q">Quantity</label>
-              <input type="number" max=20>
+              <input type="number" max="20" />
             </div>
             <div class="buttons01">
               <button class="btn01" id="buynow"><a href="">Buy Now</a></button>
             </div>
-          
+          </div>
         </div>
         <div class="container-fruits03">
           <div class="content-page">
@@ -89,58 +95,103 @@
               <h1 class="banana">Banana</h1>
             </div>
             <div class="sizes">
-            <div class="radio-button">
-            <label for="b">Small</label>
-            <input name = "banana" id="b" type="radio"></div>
-            <div class="radio-button">
-            <label for="b1">Medium</label>
-            <input name = "banana" id="b1" type="radio"></div>
-            <div class="radio-button">
-            <label for="b2">Xl</label>
-            <input name = "banana" id="b2" type="radio"></div>
+              <div class="radio-button">
+                <label for="b">Small</label>
+                <input name="banana" id="b" type="radio" />
+              </div>
+              <div class="radio-button">
+                <label for="b1">Medium</label>
+                <input name="banana" id="b1" type="radio" />
+              </div>
+              <div class="radio-button">
+                <label for="b2">Xl</label>
+                <input name="banana" id="b2" type="radio" />
+              </div>
             </div>
             <div class="quantity">
               <label for="q">Quantity</label>
-              <input type="number" max=20>
+              <input type="number" max="20" />
             </div>
             <div class="buttons01">
               <button class="btn01" id="buynow"><a href="">Buy Now</a></button>
             </div>
-          
+          </div>
         </div>
         <div class="container-fruits04">
           <div class="content-page">
-            <img
-              class="image"
-              src="./images/unnamed 1.png"
-              alt=""
-            />
+            <img class="image" src="./images/unnamed 1.png" alt="" />
             <div class="head">
               <h1 class="straw">Strawberry</h1>
             </div>
             <div class="sizes">
-            <div class="radio-button">
-            <label for="s">Small</label>
-            <input name = "straw" id="s" type="radio"></div>
-            <div class="radio-button">
-            <label for="s1">Medium</label>
-            <input name = "straw" id="s1" type="radio"></div>
-            <div class="radio-button">
-            <label for="s2">Xl</label>
-            <input name = "straw" id="s2" type="radio"></div>
+              <div class="radio-button">
+                <label for="s">Small</label>
+                <input name="straw" id="s" type="radio" />
+              </div>
+              <div class="radio-button">
+                <label for="s1">Medium</label>
+                <input name="straw" id="s1" type="radio" />
+              </div>
+              <div class="radio-button">
+                <label for="s2">Xl</label>
+                <input name="straw" id="s2" type="radio" />
+              </div>
             </div>
             <div class="quantity">
               <label for="q">Quantity</label>
-              <input type="number" max=20>
+              <input type="number" max="20" />
             </div>
             <div class="buttons01">
               <button class="btn01" id="buynow"><a href="">Buy Now</a></button>
             </div>
-          
+          </div>
         </div>
       </div>
-      
     </div>
+
+    <div class="container">
+      <footer>
+        <div class="footer-container">
+        <div id="about" class="services">
+          <div class="conent-page">
+            <div class="about-us">
+              <h2>Services</h2>
+              <ul class="services-list">
+                <li class="services-links">Question</li>
+                <li class="services-links">Trade</li>
+                <li class="services-links">Blog</li>
+                <li class="services-links">Careers</li>
+              </ul>
+            </div>
+            <div class="about-us">
+              <h2>Get in Touch</h2>
+              <ul class="services-list">
+                <li class="services-links">Contact Us</li>
+                <li class="services-links">Find Us</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container-about02">
+        <div class="social-handles">
+            <ul class="social-links">
+                  <li><i class="fab fa-instagram"></i></li>
+                  <li><i class="fab fa-twitter-square"></i></li>
+                  <li><i class="fas fa-envelope-square"></i></li>
+                  <li><i class="fab fa-linkedin"></i></li>
+                </ul>
+            <div class="random-address">
+                <article>
+                <p class="address">2649  Township Rd,<br>Bonnyville,Alberta,T9N 2J6,<br>
+                  Phone Number : 780-813-1141</p>
+                 </article>
+            </div>
+           </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
     <script src="./app.js"></script>
   </body>
 </html>

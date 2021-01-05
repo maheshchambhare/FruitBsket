@@ -186,7 +186,7 @@ button {
 
 .page02 {
   display: flex;
-  position: relative;
+  /* position: relative; */
   justify-content: space-between;
   align-items: center;
   align-content: center;
@@ -283,8 +283,6 @@ button {
 .container-fruits03 {
   display: flex;
   position: relative;
-  bottom: 100px;
-  left: 165px;
   width: 426.71px;
   height: 539px;
   margin-top: 100px;
@@ -295,8 +293,6 @@ button {
 .container-fruits04 {
   display: flex;
   position: relative;
-  bottom: 100px;
-  left: 165px;
   width: 426.71px;
   height: 539px;
   margin-top: 100px;
@@ -315,4 +311,136 @@ label {
 
 .straw {
   color: #e64e22, 100%;
+}
+
+/* About Page Css */
+
+footer {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+  background-color: #131313;
+}
+
+.footer-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 100%;
+}
+
+.services h2 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 1.5rem;
+}
+
+.conent-page {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.services {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  height: 100%;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.services-list {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.services-links {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container-about02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 90%;
+  width: 50%;
+}
+
+.social-handles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+.fab,
+.fas {
+  font-size: 3rem;
+  cursor: pointer;
+}
+.random-address {
+  width: 80%;
+  /* background-color: #fff; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+.address {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  text-align: right;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: none;
+    background-color: #131313;
+  }
+  .home-page {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-article01 {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: 550px;
+  }
+  .heading {
+    font-size: 54px;
+  }
+  .subheading {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .para01 {
+    font-size: 11px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
